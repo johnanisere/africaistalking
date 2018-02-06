@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/johnanisere/africaistalking/issues"
   },
-  "homepage": "https://github.com/johnanisere/africaistalking#readme"
+  "homepage": "https://github.com/johnanisere/africaistalking#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "form-data": "^2.3.1",
+    "nodemon": "^1.14.12",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {}
 }
