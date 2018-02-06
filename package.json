@@ -1,7 +1,7 @@
 {
   "name": "africaistalking",
-  "version": "1.0.0",
-  "description": "This Package makes api requests to africa is talking apis",
+  "version": "1.0.2",
+  "description": "A promise-based API wrapper with cors enabled for africastalking",
   "main": "africaistalking.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
