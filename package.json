@@ -1,0 +1,24 @@
+{
+  "name": "africaistalking",
+  "version": "1.0.0",
+  "description": "This Package makes api requests to africa is talking apis",
+  "main": "africaistalking.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnanisere/africaistalking.git"
+  },
+  "keywords": [
+    "africaistalking",
+    "sms",
+    "ussd"
+  ],
+  "author": "John Anisere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnanisere/africaistalking/issues"
+  },
+  "homepage": "https://github.com/johnanisere/africaistalking#readme"
+}
