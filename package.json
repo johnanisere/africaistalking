@@ -1,6 +1,6 @@
 {
   "name": "africaistalking",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A promise-based API wrapper with cors enabled for africastalking",
   "main": "africaistalking.js",
   "scripts": {
