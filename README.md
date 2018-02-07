@@ -69,8 +69,7 @@ Once the promise is settled, a second action will be dispatched. If the promise 
 
   payload: {
 
-    ...,
-    deliveryReport:action.payload
+    ...
 
   }
 
@@ -92,8 +91,7 @@ On the other hand, if the promise is rejected, a rejected action is dispatched.
 
   payload: {
 
-    ...,
-    deliveryReport:action.payload
+    ...
 
   }
 
