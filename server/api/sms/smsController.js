@@ -4,15 +4,25 @@ const request = require('request-promise')
 const config = require('../../config/config')
 
 exports.post=(req,res,next)=>{
-    let options={
-        method:'POST',
-        uri: config.uri,
-        form:{
+    let form;
+    if(req.body.from){
+        form={
             username:req.body.username,
             to:req.body.to,
             message:req.body.message,
-            from:req.body.from||'AFRICAISTALKING'
-        },
+            from:req.body.from
+        }
+    }else{
+        form={
+            username:req.body.username,
+            to:req.body.to,
+            message:req.body.message
+        }
+    }
+    let options={
+        method:'POST',
+        uri: config.uri,
+        form,
         headers:{  apikey:req.headers.apikey,
                    'Accept':"Application/json"   
                   }
