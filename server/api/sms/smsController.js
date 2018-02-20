@@ -10,7 +10,8 @@ exports.post=(req,res,next)=>{
         form:{
             username:req.body.username,
             to:req.body.to,
-            message:req.body.message
+            message:req.body.message,
+            from:req.body.from||'AFRICAISTALKING'
         },
         headers:{  apikey:req.headers.apikey,
                    'Accept':"Application/json"   
