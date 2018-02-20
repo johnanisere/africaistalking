@@ -18,6 +18,7 @@ const username='MyAppUsername'
 const message='Hello You!'
 const to='+254711XXXYYY,+254733YYYZZZ'
 const apikey='MyAppApiKey'
+const from="MyCompany"  //optional parameter,check africastalking.com for documentation on how to use
 
 
 africaistalking(username, message, to, apikey)
